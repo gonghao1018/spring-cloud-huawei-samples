@@ -36,7 +36,7 @@ spring:
         # 配置中心地址，本示例使用ServiceStage环境变量。建议保留这种配置方式，
         # 部署的时候，不用手工修改地址。
         serverAddr: ${PAAS_CSE_CC_ENDPOINT:http://127.0.0.1:30110}
-        serverType: kie
+        serverType: config-center
         # 自定义配置
         kie:
           customLabel: ${spring.application.name}
